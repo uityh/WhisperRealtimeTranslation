@@ -2,6 +2,7 @@ name: Azure Static Web Apps CI/CD
 env:
   CI: ''
   REACT_APP_OPEN_API_KEY: ${{ secrets.REACT_APP_OPEN_API_KEY }}
+  NPM_CONFIG_LEGACY_PEER_DEPS: true
 'on':
   push:
     branches:
